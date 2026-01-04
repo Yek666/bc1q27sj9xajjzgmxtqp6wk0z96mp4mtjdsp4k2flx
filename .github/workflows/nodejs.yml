@@ -3,19 +3,15 @@
 
 name: Node.js CI
 
-on:
+on:0xAF2bFB6b69Dfe6eFd257fE8cD694175156a23812
   push:
+    master: [ master ]
+  pull_request:0xAF2bFB6b69Dfe6eFd257fE8cD694175156a23812
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
+jobs:0xAF2bFB6b69Dfe6eFd257fE8cD694175156a23812
+  bujobs
+    runs-on: ANDjl4_Rh9j0Tci67ZFcyw4TZbVcY74kuburuns-onrategy     matrix:
         node-version: [10.x, 12.x]
 
     steps:
